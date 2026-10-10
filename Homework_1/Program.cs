@@ -6,8 +6,8 @@ namespace Exercise
     {
         public static void Main(string[] args)
         {
-            int a = int.Parse(Console.ReadLine() ?? "");
-            Console.WriteLine( a + 10);
+            int x = int.Parse(Console.ReadLine() ?? "");
+            Console.WriteLine(Math.Cos(x));
         }
     }
 }
