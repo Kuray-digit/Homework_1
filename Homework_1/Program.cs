@@ -6,7 +6,8 @@ namespace Exercise
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("50\n10");
+            int a = int.Parse(Console.ReadLine() ?? "");
+            Console.WriteLine( a + 10);
         }
     }
 }
