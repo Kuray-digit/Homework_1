@@ -6,7 +6,11 @@ namespace Exercise
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("50\n10");
+            int a = int.Parse(Console.ReadLine() ?? "");
+            int b = int.Parse(Console.ReadLine() ?? "");
+            int c = int.Parse(Console.ReadLine() ?? "");
+            int d = int.Parse(Console.ReadLine() ?? "");
+            Console.WriteLine($"{a}\n{b}\n{c}\n{d}");
         }
     }
 }
