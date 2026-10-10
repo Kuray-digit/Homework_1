@@ -6,7 +6,7 @@ namespace Exercise
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Math.Round(Math.E,1));
+            Console.WriteLine("50\n10");
         }
     }
 }
